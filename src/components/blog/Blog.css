@@ -1,0 +1,52 @@
+.blog_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.blog_content {
+  width: 500px;
+  margin-left: 165px;
+  box-sizing: border-box;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.orange {
+  color: #d87d4a;
+}
+.blog_title {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  /* or 110% */
+  width: 445px;
+  letter-spacing: 1.42857px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.blog_content > p {
+  width: 445px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.blog_image {
+  width: 540px;
+  margin-right: 160px;
+  border-radius: 8px;
+}

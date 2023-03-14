@@ -1,0 +1,198 @@
+.main_content_container {
+  display: flex;
+  width: 1120px;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.zx9_speaker_container {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 560px;
+  background: #d87d4a;
+  border-radius: 8px;
+}
+
+.zx9_image {
+  width: 410px;
+  height: 493;
+  margin-top: 97px;
+  margin-left: 115px;
+  position: absolute;
+  align-items: left;
+}
+
+.oval {
+  box-sizing: border-box;
+  margin-bottom: 90px;
+  position: absolute;
+  width: 944px;
+  height: 944px;
+  border-radius: 50%;
+  top: 1265px;
+  opacity: 0.5;
+  border: 1px solid #ffffff;
+}
+
+.oval1 {
+  box-sizing: border-box;
+
+  /* position: absolute; */
+  width: 542px;
+  height: 542px;
+  border-radius: 50%;
+  margin-left: 70px;
+  margin-top: 180px;
+  position: relative;
+  border: 1px solid #ffffff;
+}
+
+.zx9_content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-top: 113px;
+  margin-left: 680px;
+}
+.zx9_content > h1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 58px;
+  /* or 104% */
+  width: 260px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.zx9_content > p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  width: 350px;
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.zx9_content > button {
+  width: 160px;
+  height: 48px;
+  background: black;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.zx7_container {
+  width: 1110px;
+  margin-top: 70px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.zx7_image {
+  border-radius: 8px;
+  position: absolute;
+  width: 1118px;
+}
+
+.zx7_container > h1 {
+  position: absolute;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 90px;
+  margin-left: 70px;
+  color: #000000;
+}
+
+.zx7_container > button {
+  position: absolute;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  background-color: transparent;
+  width: 160px;
+  height: 48px;
+  margin-left: 70px;
+  margin-top: 150px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.yx1_container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+.yx1_image {
+  border-radius: 8px;
+}
+.yx1_content {
+  position: relative;
+  width: 540px;
+  height: 320px;
+  background: #f1f1f1;
+  border-radius: 8px;
+}
+
+.yx1_content > h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 95px;
+  margin-top: 100px;
+  color: #000000;
+}
+
+.yx1_content > button {
+  width: 160px;
+  height: 48px;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height */
+  margin-left: 95px;
+  margin-top: 5px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 1px solid #000000;
+  color: #000000;
+}

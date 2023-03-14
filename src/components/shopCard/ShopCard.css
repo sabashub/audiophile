@@ -1,0 +1,62 @@
+.shop_card_container {
+  width: 320px;
+  height: 284px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.shop_card1 {
+  width: 122px;
+  height: 160px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.card_content {
+  width: 350px;
+  height: 204px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+
+  background: #f1f1f1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.headphones {
+  margin-top: 150px;
+}
+
+.shop_p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 23px;
+  /* identical to box height */
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #d87d4a;
+  margin-bottom: 40px;
+  mix-blend-mode: normal;
+  opacity: 1;
+}
