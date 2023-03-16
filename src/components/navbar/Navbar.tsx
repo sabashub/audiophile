@@ -12,7 +12,9 @@ const Navbar = () => {
       </div>
       <div className="divs_container">
         <div className="navbar_container">
-          <h1 className="audiophile">audiophile</h1>
+          <Link to={"/"}>
+            <h1 className="audiophile">audiophile</h1>
+          </Link>
 
           <div className="navbar">
             <Link to={"/"}>
