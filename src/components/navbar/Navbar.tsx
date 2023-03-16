@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CartLogo from "../../assets/CartShape.png";
+
 import "./Navbar.css";
+
 const Navbar = () => {
   return (
     <div className="header_container">
@@ -29,7 +31,7 @@ const Navbar = () => {
 
           <img src={CartLogo} className="cart_logo" />
         </div>
-        {/* <hr /> */}
+        <hr />
       </div>
     </div>
   );

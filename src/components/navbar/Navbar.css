@@ -3,7 +3,7 @@
   position: absolute;
   width: 100%;
   justify-content: space-around;
-  background: rgb(0, 0, 0);
+  background: transparent;
 }
 hr {
   width: 83%;

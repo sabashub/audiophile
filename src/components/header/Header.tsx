@@ -13,10 +13,8 @@ const Header = () => {
       <div className="divs_container">
         <div className="navbar_container">
           <Navbar />
-
-          <img src={CartLogo} className="cart_logo" />
         </div>
-        {/* <hr /> */}
+
         <div className="header_content">
           <p className="new_product">NEW PRODUCT</p>
           <h1 className="header_content_title">XX99 Mark II Headphones</h1>

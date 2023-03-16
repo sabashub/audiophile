@@ -2,13 +2,15 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-top: 50px;
+  align-items: center;
+
+  justify-content: space-evenly;
+  margin-top: 100px;
 }
 
 .blog_content {
   width: 500px;
-  margin-left: 165px;
+  margin-left: 70px;
   box-sizing: border-box;
   margin-top: 100px;
   display: flex;
@@ -47,6 +49,10 @@
 
 .blog_image {
   width: 540px;
-  margin-right: 160px;
+
   border-radius: 8px;
+  margin-right: 75px;
+}
+.blog_container span {
+  color: #d87d4a;
 }
