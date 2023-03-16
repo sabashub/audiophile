@@ -3,6 +3,7 @@ import "./Footer.css";
 import Insta from "../../assets/Insta.png";
 import Fb from "../../assets/Fb.png";
 import Twitter from "../../assets/Twitter.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -19,10 +20,18 @@ const Footer = () => {
       </div>
       <div className="footer_content2">
         <div className="footer_navbar">
-          <p>Home</p>
-          <p>HEadphones</p>
-          <p>Speakers</p>
-          <p>Earphones</p>
+          <Link to={"/"}>
+            <p>Home</p>
+          </Link>
+          <Link to={"/headphones"}>
+            <p>HEadphones</p>
+          </Link>
+          <Link to={"/speakers"}>
+            <p>Speakers</p>
+          </Link>
+          <Link to={"/earphones"}>
+            <p>Earphones</p>
+          </Link>
         </div>
         <div className="social_media">
           <img src={Fb} />
